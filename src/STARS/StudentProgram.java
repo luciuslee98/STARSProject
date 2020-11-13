@@ -1,6 +1,6 @@
 package stars;
 import java.util.*;
-public class StudentProgram extends coursemanager{
+public class StudentProgram{
 	private Student_details currentUser;
 	
 	public StudentProgram(Student currentUser) {
@@ -10,7 +10,7 @@ public class StudentProgram extends coursemanager{
 	public void Add(String course) {
 		currentUser.getCourseRegistered().add(course);
 		//vacancy of course --
-		currentUser.setAU(currentUser.getAU()+coursemanager.getAU(course))
+		//student AU +
 	}
 	
 	public void Drop(String course) {
@@ -37,6 +37,7 @@ public class StudentProgram extends coursemanager{
 		//remove student name from course
 		currentUser.getCourseRegistered().add(newindex);
 		//vacancy of course --
+		//add student name from course
 		System.out.println("Index Number ",oldindex," has been changed to ",newindex);
 	}
 	
