@@ -4,7 +4,7 @@ package stars;
 public class Index {
 	private String Name;
 	private int Vacancy;
-	private List<String> StudentsRegistered;
+	private ArrayList<String> StudentsRegistered;
 	
 	public Index(String name,int vacancy) {
 		Name=name;
