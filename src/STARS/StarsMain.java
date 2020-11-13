@@ -1,4 +1,4 @@
-package STARS;
+package stars;
 import java.awt.desktop.UserSessionEvent;
 import java.io.Console;
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class StarsMain {
 	
 	StarsMain() throws IOException
 	{
-		users = new UserDatabase("../Users.txt");
+		users = new UserDatabase("Users.txt");
 	}
 
 	

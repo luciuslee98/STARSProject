@@ -1,4 +1,4 @@
-package STARS;
+package stars;
 
 import java.io.FileWriter;
 import java.io.IOException;

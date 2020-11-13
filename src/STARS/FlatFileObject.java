@@ -1,4 +1,4 @@
-package STARS;
+package stars;
 import java.util.List;
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package STARS;
+package stars;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
