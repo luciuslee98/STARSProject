@@ -1,3 +1,5 @@
+package stars;
+
 public class Student_details {
 
 	public String name;

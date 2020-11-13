@@ -1,4 +1,4 @@
-
+package stars;
 public class Admin_details {
 	public String name;
 	public String course;
