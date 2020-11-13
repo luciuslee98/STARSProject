@@ -1,7 +1,9 @@
+
 package stars;
 import java.util.*;
 public class StudentProgram extends coursemanager{
 	private Student_details currentUser;
+
 	
 	public StudentProgram(Student currentUser) {
 		this.currentUser=currentUser;
@@ -9,14 +11,19 @@ public class StudentProgram extends coursemanager{
 	
 	public void Add(String course) {
 		currentUser.getCourseRegistered().add(course);
+
 		//vacancy of course --
 		currentUser.setAU(currentUser.getAU()+coursemanager.getAU(course))
+
 	}
 	
 	public void Drop(String course) {
 		currentUser.getCourseRegistered().remove(course);
+
 		//vacancy of course --
 		//student AU -
+
+
 	}
 	
 	public void CheckAndPrintRegistered() {
@@ -33,6 +40,7 @@ public class StudentProgram extends coursemanager{
 	
 	public void changeCourseIndex(int oldindex, int newindex) {
 		currentUser.getCourseRegistered().remove(oldindex);
+
 		//vacancy of course ++
 		//remove student name from course
 		currentUser.getCourseRegistered().add(newindex);
@@ -47,5 +55,13 @@ public class StudentProgram extends coursemanager{
 		newstudent.getCourseRegistered().remove(stuindex);
 		newstudent.getCourseRegistered().add(userindex);
 		System.out.println(currentUser.getmatric_num(),"-Index Number ",userindex," swapped with ", newstudent.getmatric_num(),"-Index Number ",stuindex);;
+	}
+}
+		currentUser.getCourseRegistered().add(newindex);
+		continue;
+	}
+	
+	public void SwapIndex(int index, Student student) {
+		continue;
 	}
 }
