@@ -1,3 +1,5 @@
+package STARS;
+
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.spec.InvalidKeySpecException;
@@ -7,6 +9,7 @@ import java.util.Base64;
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
+
 
 /**Class for generating hashes from plaintext passwords and verifying them.
  * This class DOES NOT store or retrieve passwords.

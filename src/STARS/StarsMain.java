@@ -1,3 +1,4 @@
+package STARS;
 import java.awt.desktop.UserSessionEvent;
 import java.io.Console;
 import java.io.IOException;
@@ -95,8 +96,6 @@ public class StarsMain {
 				}//end switch
 
 			}
-			
-			
 			
 			
 			stars.logOut();

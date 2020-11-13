@@ -1,3 +1,5 @@
+package STARS;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -7,6 +9,7 @@ import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
+
 
 public abstract class  FlatFileDatabase <K, T extends FlatFileObject>{
 	
