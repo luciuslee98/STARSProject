@@ -1,5 +1,7 @@
 package stars;
 
+//COMMENT
+
 public class Student_details {
 
 	public String name;
